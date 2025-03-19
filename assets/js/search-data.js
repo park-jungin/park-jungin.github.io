@@ -23,12 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-our-two-papers-were-accepted-to-cvpr-2023",
+        },{id: "news-our-two-papers-were-accepted-to-cvpr-2023",
           title: 'Our two papers were accepted to CVPR 2023.',
           description: "",
           section: "News",},{id: "news-our-paper-on-video-grounding-was-accepted-to-iccv-2023",
