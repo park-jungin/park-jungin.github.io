@@ -201,6 +201,7 @@ exclude:
   - _pages/dropdown.md
   - _posts
   - _projects
+  - _books
 keep_files:
   - CNAME
   - .nojekyll
