@@ -23,10 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-our-two-papers-were-accepted-to-cvpr-2023",
-          title: 'Our two papers were accepted to CVPR 2023.',
-          description: "",
-          section: "News",},{id: "news-our-paper-on-video-grounding-was-accepted-to-iccv-2023",
+        },{id: "news-our-paper-on-video-grounding-was-accepted-to-iccv-2023",
           title: 'Our paper on video grounding was accepted to ICCV 2023.',
           description: "",
           section: "News",},{id: "news-our-paper-on-vision-language-space-mapping-was-accepted-to-iclr-2024",
@@ -34,6 +31,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-two-papers-were-accepted-to-cvpr-2025",
           title: 'Our two papers were accepted to CVPR 2025.',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-language-guided-video-summarization-was-accepted-to-ijcv",
+          title: 'Our paper on language-guided video summarization was accepted to IJCV.',
           description: "",
           section: "News",},{
         id: 'social-email',
