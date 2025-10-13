@@ -9,7 +9,7 @@ profile:
   image: avatar.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>PhD, Postdoctoral Fellow</p>
+    <p>PhD, Research Professor</p>
     <p>Yonsei University</p>
     <p>Seoul, Korea</p>
 
@@ -33,6 +33,6 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am Jungin Park, currently a postdoc fellow at Yonsei University, working with Prof. Kwanghoon Sohn. My research interests include computer vision, video understanding, multi-modal learning, and vision-language models. 
+I am Jungin Park, currently a research professor at Yonsei University, working with Prof. Kwanghoon Sohn. My research interests include computer vision, video understanding, multi-modal learning, and vision-language models. 
 
 I recieved my PhD degree in the School of Electrical and Electronic Engineering from Yonsei University in 2024, advised by Prof. [Kwanghoon Sohn](https://diml.yonsei.ac.kr).
