@@ -5,5 +5,20 @@
 "PhysRev":
   url: https://journals.aps.org/
 
+"Omnimodal":
+  color: "#6f42c1"
+
+"Efficient ML":
+  color: "#d97706"
+
+"Video-language":
+  color: "#db2777"
+
+"Video understanding":
+  color: "#059669"
+
+"Vision-language":
+  color: "#db2777"
+
 "Vision":
   color: "#009f36"
