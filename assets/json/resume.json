@@ -91,21 +91,21 @@
       {
         "name": "V-LynX: Video interface alignment for video+x llms",
         "publisher": "Jungin Park, Jiyoung Lee†, and Kwanghoon Sohn†",
-        "releaseDate": "2026",
+        "releaseDate": "2026-05",
         "url": "https://arxiv.org/abs/2606.00508",
         "summary": "International Conference on Machine Learning (ICML)"
       },
       {
         "name": "Saliency-aware model merging",
         "publisher": "Jungin Park, Jiyoung Lee†, and Kwanghoon Sohn†",
-        "releaseDate": "2026",
+        "releaseDate": "2026-05",
         "url": "https://arxiv.org/abs/2606.00511",
         "summary": "International Conference on Machine Learning (ICML)"
       },
       {
         "name": "Geospatial domain adaptation with truncated parameter-efficient fine-tuning",
         "publisher": "Kwonyoung Kim, Jungin Park, and Kwanghoon Sohn†",
-        "releaseDate": "2025",
+        "releaseDate": "2025-11",
         "url": "https://ieeexplore.ieee.org/document/11250992",
         "summary": "IEEE Geoscience and Remote Sensing Letters (GRSL)"
       },
