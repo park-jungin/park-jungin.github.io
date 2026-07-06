@@ -1,95 +1,206 @@
-- title: General Information
+- title: Basics
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Jungin Park
-    - name: Languages
-      value: Korean, English
+    - name: Label
+      value: PhD, Research Professor
+    - name: Email
+      value: <a href="mailto:john.jungin.park@gmail.com">john.jungin.park@gmail.com</a>
+    - name: Url
+      value: <a href="https://park-jungin.github.io">https://park-jungin.github.io</a>
+
+- title: Interests
+  type: list_groups
+  contents:
+    - category: Artificial Intelligence
+      icon: fa-solid fa-tag
+      items:
+        - name: Computer Vision
+        - name: Video Understanding
+        - name: Multi-modal Learning
+        - name: Vision-and-Language
+        - name: Efficient Machine Learning
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: <a href="https://www.yonsei.ac.kr/">PhD</a>
       institution: Yonsei University, Seoul, Korea
-      year: 2024
+      department: Electrical and Electronic Engineering
+      year: 2018.03 - 2024.02
+      location: Seoul, Korea
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Advisor: Kwanghoon Sohn"
+        - "Dissertation: Language-guided spatiotemporal representation learning for video understanding"
+    - title: <a href="https://www.yonsei.ac.kr/">BS</a>
+      institution: Yonsei University, Seoul, Korea
+      department: Electrical and Electronic Engineering
+      year: 2012.03 - 2018.02
+      location: Seoul, Korea
 
-- title: Experience
+- title: Work
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: <a href="https://diml.yonsei.ac.kr">Research Professor</a>
+      institution: Yonsei University
+      year: 2025.04 - present
+    - title: <a href="https://diml.yonsei.ac.kr">Postdoctoral Fellow</a>
+      institution: Yonsei University
+      year: 2024.09 - 2025.03
+    - title: Visiting Researcher
+      institution: NAVER Cloud AI Lab
+      year: 2024.03 - 2024.09
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: '<a href="https://arxiv.org/abs/2606.00508">V-LynX: Video interface alignment for video+x llms</a>'
+      year: 2026
+      maindescription: Jungin Park, Jiyoung Lee†, and Kwanghoon Sohn†
+      institution: International Conference on Machine Learning (ICML)
+    - title: <a href="https://arxiv.org/abs/2606.00511">Saliency-aware model merging</a>
+      year: 2026
+      maindescription: Jungin Park, Jiyoung Lee†, and Kwanghoon Sohn†
+      institution: International Conference on Machine Learning (ICML)
+    - title: <a href="https://ieeexplore.ieee.org/document/11250992">Geospatial domain adaptation with truncated parameter-efficient fine-tuning</a>
+      year: 2025
+      maindescription: Kwonyoung Kim, Jungin Park, and Kwanghoon Sohn†
+      institution: IEEE Geoscience and Remote Sensing Letters (GRSL)
+    - title: <a href="https://link.springer.com/article/10.1007/s11263-025-02577-2">Language-guided recursive spatiotemporal graph modeling for video summarization</a>
+      year: 2025.09
+      maindescription: Jungin Park, Jiyoung Lee†, and Kwanghoon Sohn†
+      institution: International Journal of Computer Vision (IJCV)
+    - title: '<a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Park_Bootstrap_Your_Own_Views_Masked_Ego-Exo_Modeling_for_Fine-grained_View-invariant_CVPR_2025_paper.pdf">Bootstrap your own views: Masked ego-exo modeling for fine-grained view-invariant video representations</a>'
+      year: 2025.02
+      maindescription: Jungin Park, Jiyoung Lee†, and Kwanghoon Sohn†
+      institution: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    - title: <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_Faster_Parameter-Efficient_Tuning_with_Token_Redundancy_Reduction_CVPR_2025_paper.pdf">Faster parameter-efficient tuning with token redundancy reduction</a>
+      year: 2025.02
+      maindescription: Kwonyoung Kim, Jungin Park†, Jin Kim, Hyeongjun Kwon, and Kwanghoon Sohn†
+      institution: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    - title: <a href="https://openreview.net/pdf?id=lK2V2E2MNv">Bridging vision and language spaces with assignment prediction</a>
+      year: 2024.05
+      maindescription: Jungin Park, Jiyoung Lee†, and Kwanghoon Sohn†
+      institution: International Conference on Learning Representations (ICLR)
+    - title: '<a href="http://openaccess.thecvf.com/content/ICCV2023/papers/Jang_Knowing_Where_to_Focus_Event-aware_Transformer_for_Video_Grounding_ICCV_2023_paper.pdf">Knowing where to focus: Event-aware transformer for video grounding</a>'
+      year: 2023.10
+      maindescription: Jinhyun Jang, Jungin Park, Jin Kim, Hyeongjun Kwon, and Kwanghoon Sohn
+      institution: IEEE/CVF International Conference on Computer Vision (ICCV)
+    - title: <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Park_Dual-Path_Adaptation_From_Image_to_Video_Transformers_CVPR_2023_paper.pdf">Dual-path adaptation from image to video transformers</a>
+      year: 2023.06
+      maindescription: Jungin Park*, Jiyoung Lee*, and Kwanghoon Sohn
+      institution: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    - title: '<a href="http://openaccess.thecvf.com/content/CVPR2023/papers/Kim_PartMix_Regularization_Strategy_To_Learn_Part_Discovery_for_Visible-Infrared_Person_CVPR_2023_paper.pdf">Partmix: Regularization strategy to learn part discovery for visible-infrared person re-identification</a>'
+      year: 2023.06
+      maindescription: Minsu Kim, Seungryong Kim, Jungin Park, Seongheon Park, and Kwanghoon Sohn
+      institution: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    - title: <a href="https://openaccess.thecvf.com/content/WACV2023/papers/Kim_Language-Free_Training_for_Zero-Shot_Video_Grounding_WACV_2023_paper.pdf">Language-free training for zero-shot video grounding</a>
+      year: 2023.01
+      maindescription: Dahye Kim, Jungin Park, Jiyoung Lee, Seongheon Park, and Kwanghoon Sohn
+      institution: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+    - title: '<a href="https://link.springer.com/chapter/10.1007/978-3-031-19839-7_33">Pointfix: Learning to fix domain bias for robust online stereo adaptation</a>'
+      year: 2022.10
+      maindescription: Kwonyoung Kim, Jungin Park, Jiyoung Lee, Dongbo Min, and Kwanghoon Sohn
+      institution: European Conference on Computer Vision (ECCV)
+    - title: <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Park_Probabilistic_Representations_for_Video_Contrastive_Learning_CVPR_2022_paper.pdf">Probabilistic representations for video contrastive learning</a>
+      year: 2022.06
+      maindescription: Jungin Park, Jiyoung Lee, Ig-Jae Kim, and Kwanghoon Sohn
+      institution: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    - title: '<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_Pin_the_Memory_Learning_To_Generalize_Semantic_Segmentation_CVPR_2022_paper.pdf">Pin the memory: Learning to generalize semantic segmentation</a>'
+      year: 2022.06
+      maindescription: Jin Kim, Jiyoung Lee, Jungin Park, Dongbo Min, and Kwanghoon Sohn
+      institution: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    - title: <a href="https://ieeexplore.ieee.org/document/9506516">Self-balanced learning for domain generalization</a>
+      year: 2021.09
+      maindescription: Jin Kim, Jiyoung Lee, Jungin Park, Dongbo Min, and Kwanghoon Sohn
+      institution: IEEE International Conference on Image Processing (ICIP)
+    - title: '<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Park_Bridge_To_Answer_Structure-Aware_Graph_Interaction_Network_for_Video_Question_CVPR_2021_paper.pdf">Bridge to answer: Structure-aware graph interaction network for video question answering</a>'
+      year: 2021.06
+      maindescription: Jungin Park, Jiyoung Lee, and Kwanghoon Sohn
+      institution: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    - title: <a href="https://ojs.aaai.org/index.php/AAAI/article/view/16274">Cross-domain grouping and alignment for domain adaptive semantic segmentation</a>
+      year: 2020.12
+      maindescription: Minsu Kim, Sunghun Joung, Seungryong Kim, Jungin Park, Ig-Jae Kim, and Kwanghoon Sohn
+      institution: AAAI Conference on Artificial Intelligence (AAAI)
+    - title: '<a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700647.pdf">Sumgraph: Video summarization via recursive graph modeling</a>'
+      year: 2020.10
+      maindescription: Jungin Park*, Jiyoung Lee*, Ig-Jae Kim, and Kwanghoon Sohn
+      institution: European Conference on Computer Vision (ECCV)
+    - title: <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Context-Aware_Emotion_Recognition_Networks_ICCV_2019_paper.pdf">Context-aware emotion recognition networks</a>
+      year: 2019.10
+      maindescription: Jiyoung Lee, Seungryong Kim, Sunok Kim, Jungin Park, and Kwanghoon Sohn
+      institution: IEEE/CVF International Conference on Computer Vision (ICCV)
+    - title: <a href="https://openaccess.thecvf.com/content_ICCVW_2019/papers/CoView/Park_Video_Summarization_by_Learning_Relationships_between_Action_and_Scene_ICCVW_2019_paper.pdf">Video summarization by learning relationships between action and scene</a>
+      year: 2019.10
+      maindescription: Jungin Park, Jiyoung Lee, Sangryul Jeon, Seungryong Kim, and Kwanghoon Sohn
+      institution: IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)
+    - title: <a href="https://ieeexplore.ieee.org/document/8803589">Graph regularization network with semantic affinity for weakly-supervised temporal action localization</a>
+      year: 2019.09
+      maindescription: Jungin Park, Jiyoung Lee, Sangryul Jeon, Seungryong Kim, and Kwanghoon Sohn
+      institution: IEEE International Conference on Image Processing (ICIP)
+    - title: <a href="https://dl.acm.org/doi/10.1145/3265987.3265989">Learning to detect, associate, and recognize human actions and surrounding scenes in untrimmed videos</a>
+      year: 2018.10
+      maindescription: Jungin Park, Sangryul Jeon, Seungryong Kim, Jiyoung Lee, Sunok Kim, and Kwanghoon Sohn
+      institution: ACM Multimedia Workshop (MMW)
 
-- title: Honors and Awards
+- title: Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Academic Research Fellowship
+      institution: Yonsei University
+      year: 2023
+    - title: Outstanding 100 National Research Projects
+      institution: Ministry of Science and ICT, Korea
+      department: Research assistant
+      year: 2019
+    - title: 3rd Place at the CoVieW 2019 ICCV Challenge
+      institution: ICCV 2019 Workshop
+      year: 2019
+    - title: 2nd Place at the Workshop on Frontiers of Electrical Engineering
+      institution: Yonsei University
+      year: 2019
 
-- title: Academic Interests
-  type: nested_list
+- title: Projects
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Omni-modal Benchmarking and Learning
+      year: 2025.03 - present
+      maindescription: Omni-modal Data Construction and Integration towards Artificial General Intelligence
+      description:
+        - Ministry of Science and ICT - Mid-level Research
+    - title: Omni-modal Learning
+      year: 2025.03 - present
+      maindescription: Development of Omni-modal-based General-purpose Artificial Intelligence
+      description:
+        - Yonsei University - Yonsei Signature Research Cluster
+    - title: Multi-modal Learning
+      year: 2022.03 - 2024.02
+      maindescription: Development of Multimodal-based General-purpose Artificial Social Intelligence
+      description:
+        - Yonsei University - Yonsei Signature Research Cluster
+    - title: Multi-modal Learning
+      year: 2021.03 - 2024.02
+      maindescription: Development of Multi-modal Data Fusion and Artificial Social Intelligence for Comprehensive Scene Understanding and Prediction
+      description:
+        - Ministry of Science - Mid-level Research
+    - title: Domain Generalization and Adaptation
+      year: 2020.04 - 2022.03
+      maindescription: To Create AI Systems that Act Appropriately and Effectively in Novel Situations that Occur in Open Worlds
+      description:
+        - Institute of Information&Communication Technology
+    - title: Video Understanding
+      year: 2018.03 - 2020.02
+      maindescription: Fundamental Research of Vision Algorithms for Comprehensive and Thorough Video Understanding
+      description:
+        - Ministry of Science, ICT, and Future Planning
 
-- title: Other Interests
-  type: list
+- title: Languages
+  type: list_groups
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - category: Korean
+      items:
+        - name: Native speaker
+    - category: English
+      items:
+        - name: Fluent
