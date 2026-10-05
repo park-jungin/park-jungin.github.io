@@ -9,9 +9,9 @@ profile:
   image: avatar.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>PhD, Research Professor</p>
-    <p>Yonsei University</p>
-    <p>Seoul, Korea</p>
+    <p>Assistant Professor, PhD</p>
+    <p>DGIST, EECS</p>
+    <p>Daegu, Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -33,6 +33,6 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am Jungin Park, currently a research professor at Yonsei University, working with Prof. Kwanghoon Sohn. My research interests include computer vision, video understanding, multi-modal learning, and vision-language models. 
+I am Jungin Park, an assistant professor in the Department of Electrical Engineering and Computer Science at [DGIST](https://www.dgist.ac.kr/eecs/). Before joining DGIST, I was a research professor from April 2025 to September 2026 and a postdoctoral researcher from September 2024 to March 2025 at Yonsei University, working with Prof. Kwanghoon Sohn. My research interests include computer vision, video understanding, multimodal learning, and embodied AI.
 
-I recieved my PhD degree in the School of Electrical and Electronic Engineering from Yonsei University in 2024, advised by Prof. [Kwanghoon Sohn](https://diml.yonsei.ac.kr).
+I received my Ph.D. degree from the School of Electrical and Electronic Engineering at Yonsei University in 2024, advised by Prof. [Kwanghoon Sohn](https://diml.yonsei.ac.kr).
