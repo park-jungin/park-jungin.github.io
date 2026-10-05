@@ -35,12 +35,18 @@ ninja.data = [{
           section: "News",},{id: "news-our-two-papers-were-accepted-to-icml-2026",
           title: 'Our two papers were accepted to ICML 2026.',
           description: "",
+          section: "News",},{id: "news-our-paper-on-vision-language-action-models-was-accepted-to-neurips-2026",
+          title: 'Our paper on vision-language-action models was accepted to NeurIPS 2026.',
+          description: "",
+          section: "News",},{id: "news-dynamic-lab-dgist-is-now-open",
+          title: 'DYNAMIC LAB @ DGIST is now open! 👏',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6A%6F%68%6E.%6A%75%6E%67%69%6E.%70%61%72%6B@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%6A%75%6E%67%69%6E.%70%61%72%6B@%64%67%69%73%74.%61%63.%6B%72", "_blank");
         },
       },{
         id: 'social-github',
